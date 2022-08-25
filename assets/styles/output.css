@@ -551,6 +551,185 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
+.-m-1 {
+  margin: -0.25rem;
+}
+
+.-m-2 {
+  margin: -0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-\[20\.5rem\] {
+  width: 20.5rem;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.bg-very-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 11 26 / var(--tw-bg-opacity));
+}
+
+.bg-dark-desaturated-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 25 56 / var(--tw-bg-opacity));
+}
+
+.bg-soft-violet {
+  --tw-bg-opacity: 1;
+  background-color: rgb(170 92 219 / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-Inter {
+  font-family: Inter, sans-serif;
+}
+
+.font-Lexed-Deca {
+  font-family: Lexend Deca, sans-serif;
+}
+
+.text-semi-3xl {
+  font-size: 1.7rem;
+}
+
+.text-semi-base {
+  font-size: 0.9375rem;
+}
+
+.text-semi-2xl {
+  font-size: 1.375rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-6\.5 {
+  line-height: 1.625rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.tracking-extra-wide {
+  letter-spacing: .125em;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-soft-violet {
+  --tw-text-opacity: 1;
+  color: rgb(170 92 219 / var(--tw-text-opacity));
+}
+
+.text-white-7 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-white-6 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
 }

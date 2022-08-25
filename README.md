@@ -41,8 +41,9 @@ Users should be able to:
 ### Workflow
  - Set up the project folder structure
  - Set up the project with Git
- - Install Tailwindcss
- - Create HTML Skeleton based on mobile design `assets/design`
+ - Set up Tailwindcss
+ - Create HTML Skeleton based on mobile design `assets/design/mobile-design.jpg`
+ - work on mobile desing
 
 ### Built with
 

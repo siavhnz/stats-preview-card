@@ -8,37 +8,43 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./assets/styles/output.css" />
 
 </head>
 <body>
 
-  <main>
-    <article>
-      <figure>
-        <picture>
-          <source media="(max-width: 1023px)" srcset="./assets/images/image-header-mobile.jpg" />
-          <source media="(min-width: 1024px)" srcset="./assets/images/image-header-desktop.jpg" />
-          <img src="./assets/images/image-header-mobile.jpg" alt="insights meeting" />
-        </picture>
-      </figure>
-      <div>
-        <h1>Get insights that help your business grow.</h1>
-        <p>
+  <main class="min-h-screen flex items-center justify-center bg-very-dark-blue">
+    <article class="m-4 w-[20.5rem] bg-dark-desaturated-blue rounded-lg">
+      <div class="rounded-t-lg bg-soft-violet">
+        <figure>
+          <picture>
+            <source media="(max-width: 1023px)" srcset="./assets/images/image-header-mobile.jpg" />
+            <source media="(min-width: 1024px)" srcset="./assets/images/image-header-desktop.jpg" />
+            <img class="rounded-t-lg mix-blend-multiply" src="./assets/images/image-header-mobile.jpg" alt="insights meeting" />
+          </picture>
+        </figure>
+      </div>
+      <div class="flex flex-col items-center gap-4 p-8">
+        <h1 class="text-white text-center text-semi-3xl font-Inter font-bold leading-8 mt-3">
+          Get 
+          <span class="text-soft-violet">insights</span> 
+          that help your business grow.</h1>
+        <p class="text-white-7 text-center text-semi-base font-Inter font-regular leading-6.5 mb-4">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
         </p>
-        <div>
+        <div class="flex flex-col gap-6 text-center">
           <div>
-            <span>10k+</span>
-            <span>companies</span>
+            <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">10k+</span>
+            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest">companies</span>
           </div>
           <div>
-            <span>314</span>
-            <span>templates</span>
+            <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">314</span>
+            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest -mt-2">templates</span>
           </div>
           <div>
-            <span>12m+</span>
-            <span>queries</span>
+            <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">12M+</span>
+            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest -mt-2">queries</span>
           </div>
         </div>
       </div>
