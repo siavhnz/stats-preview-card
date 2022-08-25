@@ -11,40 +11,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./assets/styles/output.css" />
 
+  <style>
+    @media screen and (min-width:1280px) {
+      .article {
+        display: grid;
+        grid-template-columns: 1fr auto;
+      }
+    }
+  </style>
+
 </head>
 <body>
 
   <main class="min-h-screen flex items-center justify-center bg-very-dark-blue">
-    <article class="m-4 w-[20.5rem] bg-dark-desaturated-blue rounded-lg">
-      <div class="rounded-t-lg bg-soft-violet">
+    <article class="m-4 w-[20.5rem] bg-dark-desaturated-blue rounded-lg xl:w-[69.5rem] xl:grid xl:grid-cols-banner">
+      <div class="rounded-t-lg bg-soft-violet xl:order-1 xl:rounded-none xl:rounded-r-lg">
         <figure>
           <picture>
             <source media="(max-width: 1023px)" srcset="./assets/images/image-header-mobile.jpg" />
             <source media="(min-width: 1024px)" srcset="./assets/images/image-header-desktop.jpg" />
-            <img class="rounded-t-lg mix-blend-multiply" src="./assets/images/image-header-mobile.jpg" alt="insights meeting" />
+            <img class="rounded-t-lg mix-blend-multiply xl:rounded-none xl:rounded-r-lg" src="./assets/images/image-header-mobile.jpg" alt="insights meeting" />
           </picture>
         </figure>
       </div>
-      <div class="flex flex-col items-center gap-4 p-8">
-        <h1 class="text-white text-center text-semi-3xl font-Inter font-bold leading-8 mt-3">
+      <div class="flex flex-col gap-4 p-7 xl:p-16 xl:pb-14">
+        <h1 class="text-white text-center text-semi-3xl font-Inter font-bold leading-8 mt-3 xl:text-4xl xl:text-left xl:pl-2 xl:leading-11 xl:mt-2">
           Get 
           <span class="text-soft-violet">insights</span> 
           that help your business grow.</h1>
-        <p class="text-white-7 text-center text-semi-base font-Inter font-regular leading-6.5 mb-4">
+        <p class="text-white-7 text-center text-semi-base font-Inter font-regular leading-6.5 mb-4 xl:text-left xl:pl-2 xl:mt-2 xl:pr-16">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
         </p>
-        <div class="flex flex-col gap-6 text-center">
+        <div class="flex flex-col gap-6 text-center xl:flex-row xl:justify-between xl:flex-grow xl:items-end xl:pr-24 xl:text-left xl:pl-2 xl:pb-1">
           <div>
             <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">10k+</span>
             <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest">companies</span>
           </div>
           <div>
             <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">314</span>
-            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest -mt-2">templates</span>
+            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest">templates</span>
           </div>
           <div>
             <span class="text-white text-semi-2xl font-bold font-Inter block tracking-wide">12M+</span>
-            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest -mt-2">queries</span>
+            <span class="text-white-6 uppercase text-xs font-Lexed-Deca tracking-widest">queries</span>
           </div>
         </div>
       </div>

@@ -24,9 +24,14 @@ module.exports = {
       },
       lineHeight: {
         6.5: "1.625rem",
+        10.5: "2.625rem",
+        11: "2.75rem",
       },
       letterSpacing: {
         "extra-wide": ".125em",
+      },
+      gridTemplateColumns: {
+        banner: "1fr auto",
       },
     },
   },
